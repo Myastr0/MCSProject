@@ -16,7 +16,7 @@ public class myMFCCdistance extends MFCCHelper {
 			res += Math.abs(mfcc1.getCoef(i) - mfcc2.getCoef(i));
 		}
 
-		return 0;
+		return res;
 	}
 
 	@Override
